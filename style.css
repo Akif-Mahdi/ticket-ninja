@@ -122,3 +122,13 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#booking-confirmation{
+    color: rgb(0, 0, 0);
+    background-color: rgba(200, 214, 70, 0.692);
+    text-align: center;
+    margin: 50px 50px;
+    padding: 20px;
+    border-color: salmon;
+    border-radius: 10px;
+    display: none;
+}
