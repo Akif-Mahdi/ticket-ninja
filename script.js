@@ -69,7 +69,7 @@ economyMinusBTN.addEventListener("click",function(){
 const bookNowBTN = document.getElementById("book-now-btn");
 bookNowBTN.addEventListener("click",function(){
     if(document.getElementById("firstClass-input-field").value==0&&document.getElementById("economy-input-field").value==0)
-        alert("Please select at lease one ticket to proceed booking!");
+        alert("Please select at least one ticket to proceed booking!");
     else{
         const bookingContent = document.getElementById("booking-section");
         bookingContent.style.display="none";
